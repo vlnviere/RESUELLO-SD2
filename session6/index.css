@@ -1,0 +1,60 @@
+/* Universal Selector */
+*{
+    font-family:"Franklin Gothic Medium", monospace;
+}
+
+body{
+    background-color: #daeded;
+}
+nav{
+    background-color: #83c7c7;
+    padding: 10px;
+    text-align: center;
+}
+
+div{
+    float: right;
+}
+
+/* Type Selector - calls tag */
+h1{
+    color: #711ba3 !important;
+    text-align: center;
+}
+
+section{
+    padding: 20px;
+    text-align: center;
+    height: 200vh
+}
+h2{
+    font-size: 1.5rem;
+}
+
+/* ID Selector */
+#zuitt-motto{
+    font-style: italic;
+    color: #0b3d91;
+    letter-spacing: 5px;
+}
+
+h3{
+    text-decoration: underline;
+    letter-spacing: 25px;
+}
+
+ol{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+/* 
+Padding - space between content and border
+Margin - space between border and other elements
+*/
