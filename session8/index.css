@@ -1,0 +1,21 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing:border-box;
+}
+
+.heading{
+    color:#277763;
+}
+
+.heading-size{
+    font-size: 48px;
+}
+
+.text-purple{
+    color: #a639d8;
+}
+
+.bg-purple{
+    background-color: #a639d8;
+}
