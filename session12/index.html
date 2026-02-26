@@ -11,10 +11,10 @@
     </head>
     <body>
     <!-- Navbar -->
-        <nav id="navbar">
-            <div class="p-3 bg-dark shadow text-success border-bottom border-warning border-5 sticky-top">
+        <nav id="navbar" class="sticky-top">
+            <div class="p-3 bg-dark shadow text-success border-bottom border-warning border-5">
                 <div class="d-flex flex-row p-3 gap-5">
-                    <a href="" class="text-decoration-none text-warning fw-bold me-auto">My Website</a>
+                    <a href="#top" class="text-decoration-none text-warning fw-bold me-auto">My Website</a>
                     <ul class="d-flex flex-row list-unstyled gap-3">
                         <li><a href="#about" class="text-decoration-none text-light p-2">About</a></li>
                         <li><a href="#services" class="text-decoration-none text-light p-2">Services</a></li>
@@ -26,16 +26,17 @@
         <!-- Banner Section -->
         <section id="banner">
             <div class="bg-light p-5 mt-5 d-flex flex-column justify-content-center align-items-center">
-                <h1 class="text-center fw-bold text-dark display-1" >Welcome to My Website</h1>
+                <h1 class="text-center fw-bold text-warning display-4 border border-warning border-5 rounded-4 p-3 bg-dark" >Welcome to My Website</h1>
                 <p class="text-center display-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </section>
 
-        <div id="car" class="bg-image mt-5 d-flex" style="background-image: url(https://res.cloudinary.com/dneeqo5vq/image/upload/v1708477409/2024-Maserati-GranTurismo-Review-550x350_gopzhy.jpg); background-size: cover; background-position: center; height: 600px; width: 100%;"></div>
+        <div id="car" class="bg-image mt-5 " style="background-image: url(https://res.cloudinary.com/dneeqo5vq/image/upload/v1708477409/2024-Maserati-GranTurismo-Review-550x350_gopzhy.jpg); background-size: cover; background-position: center; height: 500px; width: 100%;">
+        </div>
 
         <!-- About Section -->
         <section id="about">
-            <div id="about-row" class="bg-dark p-5 col-12 col-md-6 d-flex justify-content-center align-items-center">
+            <div id="about-row" class="bg-dark p-5">
                 <div id="about-col-1">
                     <h2 class="text-center fw-bold text-warning display-5">About Us</h2>
                     <p class="text-center text-light display-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt nisi et sem eleifend aliquet. Fusce interdum rutrum ipsum, non feugiat risus consectetur eu. Nulla sodales orci et mi ultrices, at mattis leo gravida. Curabitur non dapibus orci.</p>
@@ -45,22 +46,22 @@
 
         <!-- Services Section -->
         <section id="services">
-            <h2 class="text-center fw-bold text-dark display-5 p-5 d-flex justify-content-center">Our Services</h2>
-            <div id="section-row" class="d-flex">
+            <h2 class="text-center fw-bold text-dark display-5 p-5 d-flex justify-content-center border-top border-warning border-5">Our Services</h2>
+            <div id="section-row" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 p-5">
                 <div class="col-12 col-md-6">
-                    <div id="recognition-1" class="text-center border border-warning rounded-2 p-3 m-3 mt-3 bg-dark">
+                    <div id="service1" class="text-center border border-warning rounded-2 p-3 m-3 mt-3 bg-dark">
                         <h3 class="text-warning">Web Development</h3>
                         <p class="text-light">We provide professional web development services.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div id="recognition-2" class="text-center border border-warning rounded-2 p-3 m-3 mt-3 bg-dark">
+                    <div id="service2" class="text-center border border-warning rounded-2 p-3 m-3 mt-3 bg-dark">
                         <h3 class="text-warning">Graphic Design</h3>
                         <p class="text-light">Our talented designers create stunning graphics for your brand.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div id="recognition-3" class="text-center border border-warning rounded-2 p-3 m-3 mt-3 bg-dark">
+                    <div id="service3" class="text-center border border-warning rounded-2 p-3 m-3 mt-3 bg-dark">
                         <h3 class="text-warning">Digital Marketing</h3>
                         <p class="text-light">We help businesses grow their online presence.</p>
                     </div>
@@ -68,7 +69,7 @@
         </section>
 
         <!-- Footer -->
-        <footer id="footer" class="p-3 bg-dark shadow text-warning border-bottom border-warning border-5 sticky-bottom">
+        <footer id="footer" class="p-3 bg-dark shadow text-warning border-top border-warning border-5">
             <div>&copy;  2023 My Website.</div>
             <div>|</div>
             <div>All rights reserved.</div>
