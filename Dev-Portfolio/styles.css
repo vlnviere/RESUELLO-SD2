@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Limelight&family=Plaster&display=swap');
+
+body{
+    min-height: 100vh;
+}
+h1, h3, nav {
+    font-family: "Plaster", system-ui;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+h2, h4, h6 {
+    font-family: "Limelight", sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+li, p , label {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+#landing{
+    background-image: url(../Dev-Portfolio/images/landingBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-shadow{
+    text-shadow: 3px 3px 1px #000000;
+}
+
+.shadow-box{
+    background-color: #2c3f3567;
+}
+
+hr{
+    border: none;
+    opacity: 0;
+    margin: 1rem 0;
+}
+
+#profile{
+    width: 350px;
+}
