@@ -3,10 +3,19 @@
 body{
     min-height: 100vh;
 }
+
 h1, h3, nav {
     font-family: "Plaster", system-ui;
     font-style: normal;
     letter-spacing: 2px;
+}
+
+#title{
+    font-size: min(max(15px, 6vw), 40px);
+}
+
+#subtitle{
+    font-size: min(max(5px, 6vw), 15px);
 }
 
 h2, h4, h6 {
@@ -49,4 +58,27 @@ hr{
 
 #profile{
     width: 350px;
+}
+
+#carousel{
+    background-image: url(https://img.freepik.com/premium-photo/minimalist-blurred-background-with-gradient-colors-orange-sky-blue-simple-colorful-design_947814-222866.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.art-card {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.art-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
