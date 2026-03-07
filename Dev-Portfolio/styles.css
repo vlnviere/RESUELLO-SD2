@@ -56,6 +56,12 @@ hr{
     margin: 1rem 0;
 }
 
+#about{
+    background-image: url(../Dev-Portfolio/images/whitebg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 #profile{
     width: 350px;
 }
@@ -81,4 +87,10 @@ hr{
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+#contact{
+    background-image: url(../Dev-Portfolio/images/whitebg.jpg);
+    background-size: cover;
+    background-position: center;
 }
