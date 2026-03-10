@@ -94,3 +94,14 @@ hr{
     background-size: cover;
     background-position: center;
 }
+
+#footer{
+        background-image: url(../Dev-Portfolio/images/landingBG.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+#footer img{
+    width: 40px;
+    height: 40px;
+}
